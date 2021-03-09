@@ -11,23 +11,23 @@ function compiller() {
 };
 
 function watch () {
-    return gulp.watch("./app/sass/**/*.scss", compiller)
-}
+    return gulp.watch("./app/sass/**/*.scss", compiller);
+};
 
 function cssmin () {
     return gulp.src("./app/css/style.css")
     .pipe(cssMin())
     .pipe(rename("style.min.css"))
-    .pipe(gulp.dest("./app/css"))
-}
+    .pipe(gulp.dest("./app/css"));
+};
 
 function imgMin () {
     return gulp.src("./app/img/**/*")
     .pipe(imagemin())
-    .pipe(gulp.dest("./app/img/"))
-}
+    .pipe(gulp.dest("./app/img/"));
+};
 
-exports.compiller = compiller;
-exports.watch = watch;
-exports.cssmin = cssmin;
-exports.imgmin = imgMin;
+exports.compiller = compiller;  // компиляція scss - css
+exports.watch = watch;          // scss вотчер-компиляція
+exports.cssmin = cssmin;        
+exports.imgmin = imgMin;        

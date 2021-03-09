@@ -1,7 +1,4 @@
-$color: red; 
-h1 {
-    color: $color;
-}
-body {
-    background-color: rgb(78, 78, 78);
-}
+@import "./reset.scss";
+@import "./fonts.scss";
+@import "./desktop.scss";
+@import "./adaptive.scss";
