@@ -1,0 +1,32 @@
+{
+  "name": "music.project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeivanzw/music.project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeivanzw/music.project/issues"
+  },
+  "homepage": "https://github.com/freeivanzw/music.project#readme",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "chokidar": "^2.1.8",
+    "resolve-url": "^0.2.1",
+    "urix": "^0.1.0"
+  }
+}
