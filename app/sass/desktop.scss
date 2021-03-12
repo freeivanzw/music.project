@@ -1,0 +1,19 @@
+$border-color: #d6cbcb;
+$border-color-active: #ad9797;
+$price-color: #e73939;
+$title-hide: #d8424b; 
+
+body {
+    font-family: "Tahoma";
+    font-weight: 400;
+    background-color: #fefefe;
+    color: #444444;
+}
+
+.content {
+    max-width: 1000px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+}
+

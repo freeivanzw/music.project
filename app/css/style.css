@@ -35,3 +35,20 @@ ol, ul {
   font-family: "Roboto";
   font-weight: 300;
   src: url("../fonts/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma";
+  font-weight: 400;
+  src: url("../fonts/tahoma.ttf") format("truetype"); }
+
+body {
+  font-family: "Tahoma";
+  font-weight: 400;
+  background-color: #fefefe;
+  color: #444444; }
+
+.content {
+  max-width: 1000px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin: 0 auto; }
