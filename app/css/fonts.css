@@ -12,3 +12,8 @@
   font-family: "Tahoma";
   font-weight: 400;
   src: url("../fonts/tahoma.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Tahoma";
+  font-weight: 700;
+  src: url("../fonts/Tahoma Bold.ttf") format("truetype"); }
